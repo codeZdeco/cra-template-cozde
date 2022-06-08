@@ -11,3 +11,5 @@ template/**/build
 template/**/npm-debug.log*
 template/**/yarn-debug.log*
 template/**/yarn-error.log*
+
+.npmrc
