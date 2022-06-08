@@ -8,6 +8,9 @@
   ],
   "description": "Shorten your life",
   "main": "template.json",
+  "scripts": {
+    "update": "git submodule foreach \"git fetch; git pull origin master\""
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/codeZdeco/cra-template-cozde.git",
