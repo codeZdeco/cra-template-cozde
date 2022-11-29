@@ -10,13 +10,13 @@
     "redux-toolkit",
     "tailwindcss",
     "axios",
-    "lodash"
+    "antd"
   ],
   "private": false,
   "description": "CoZde React CRA Template",
   "main": "template.json",
   "scripts": {
-    "update": "git submodule foreach \"git fetch; git pull origin master\""
+    "update": "git submodule update --remote template"
   },
   "repository": {
     "type": "git",
