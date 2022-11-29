@@ -1,6 +1,6 @@
 {
   "name": "cra-template-cozde",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "keywords": [
     "react",
     "create-react-app",
@@ -16,7 +16,8 @@
   "description": "CoZde React CRA Template",
   "main": "template.json",
   "scripts": {
-    "update": "git submodule update --remote template"
+    "update": "git submodule update --remote template",
+    "fetch": "cd template && git submodule update --init"
   },
   "repository": {
     "type": "git",
